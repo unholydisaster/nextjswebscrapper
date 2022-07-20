@@ -12,8 +12,8 @@ const Scrapeded=({data}) =>{
     <Outerdiv>
       {data.map((pre)=> {
         return(
-        <Listul>
-          <li  key={pre.scrdata}><a>{pre.scrdata}</a></li>
+        <Listul key={pre.scrdata}>
+          <li><a>{pre.scrdata}</a></li>
         </Listul>                               
         )
         })}
